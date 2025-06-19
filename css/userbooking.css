@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background: #007bff;
+    color: white;
+    text-transform: capitalize;
+}
+
+.table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-secondary {
+    background-color: green;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: darkgreen;
+}
+
+.btn-third {
+    background-color: orange;
+    color: white;
+}
+
+.btn-third:hover {
+    background-color: darkorange;
+}

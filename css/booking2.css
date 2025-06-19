@@ -1,0 +1,69 @@
+/* booking.css */
+
+.seat {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #b9d9ea;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #888;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.seat.booked {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: not-allowed;
+    border: 1px solid #c0392b;
+}
+
+.seat.selected {
+    background-color: #27ae60;
+    color: #fff;
+    border: 1px solid #1e8449;
+}
+
+.screen-label {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.seat-map {
+    max-width: 500px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background: #f4f6f7;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.legend-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.legend-item .seat-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 4px;
+}

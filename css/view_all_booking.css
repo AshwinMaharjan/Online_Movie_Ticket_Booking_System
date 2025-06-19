@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background: #007bff;
+    color: white;
+    text-transform: capitalize;
+}
+
+.table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.table tr:hover {
+    background: #f1f1f1;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn-secondary {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #218838;
+}
+
+.btn-third {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-third:hover {
+    background-color: #e0a800;
+}
+
+.btn-light {
+    background-color: #6c757d;
+    color: white;
+    cursor: not-allowed;
+}
+/* Style for the form container */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Style for form row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Input and select fields */
+input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Adjusting column layout */
+.col-lg-3 {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Improving action buttons */
+td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* No booking found message */
+.table td[colspan="10"] {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.search-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bichhoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

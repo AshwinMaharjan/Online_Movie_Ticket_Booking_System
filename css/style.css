@@ -1,0 +1,304 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header (Branding Section) */
+.branding {
+  background: #000000; /* Black background */
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure spacing */
+  width: 100%;
+}
+
+/* Container inside the header */
+.branding .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Makes text & nav stay on the same line */
+  width: 90%;
+  margin: auto;
+}
+
+/* Logo Section */
+.branding .logo h1 {
+  color: #fff; /* White text */
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navigation Bar */
+.navmenu {
+  display: flex;
+}
+
+.navmenu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navmenu ul li {
+  display: inline-block;
+}
+
+.navmenu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navmenu ul li a:hover {
+  background: #ffcc00; /* Highlight effect */
+  color: #222;
+}
+
+/* Footer Styling */
+.footer {
+  background: #000000; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
+
+/* Centering text */
+.footer .container {
+  width: 90%;
+  margin: 0 auto; /* Ensure content is centered */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100%; /* Make the container take full height of the footer */
+}
+
+/* Sticky Footer for Pages with Less Content */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+/* HOMEPAGE STYLE */
+#team {
+  background-color: #f8f9fa; /* Light background */
+  padding: 60px 0;
+}
+
+#team .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#team .section-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+#team .section-title .description-title {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Container for Team Members */
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between items */
+  padding: 0 15px; /* Add padding on left and right */
+
+}
+
+/* Team Member Card */
+.team-member {
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 23%; /* Each card takes up 1/4 of the container width */
+  margin-bottom: 20px; /* Space between rows */
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.team-member:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+/* Member Image */
+.member-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.member-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 5px solid #11ff00; /* Highlight the bottom with color */
+}
+
+/* Member Info */
+.member-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.member-info h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hide the button by default */
+.watch-trailer-btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(0, 0, 0, 0.7);
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+opacity: 0; /* Initially hidden */
+}
+/* Show button only on hover */
+.member-img:hover .watch-trailer-btn {
+opacity: 1;
+}
+
+/* Optional: Slight zoom effect on hover */
+.member-img:hover img {
+transform: scale(1.05);
+}
+
+.watch-trailer-btn:hover {
+background: rgba(255, 0, 0, 0.8);
+} 
+
+/* Search Form Styling */
+form {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-bottom: 30px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+
+.form-group {
+display: flex;
+align-items: center;
+}
+
+input[type="text"], select {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 250px;
+}
+
+.btn-primary {
+background: black;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.btn-primary:hover {
+background: grey;
+color: #fff;
+}
+
+
+.container123{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust height as needed */
+  text-align: center;
+  background: #5d5d5d; /* Background color for header */
+  color: #fff;
+}
+
+.section-title h4 {
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+color: white;
+position: relative;
+display: inline-block;
+}
+
+.containers.display {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+}
+
+.showing {
+font-size: 24px; /* Makes the font size bigger */
+text-decoration: none; /* Removes underline */
+color: black; /* Change as needed */
+font-weight: bold;
+}
+
+.movie-container-link {
+display: block;
+text-decoration: none; /* Remove default link styles */
+color: inherit; /* Inherit the color of the parent elements */
+}
+
+.team-member {
+cursor: pointer; /* Make it clear that it's clickable */
+}
+
+.profile-pic {
+width: 70px; /* Adjust width */
+height: 70px; /* Adjust height */
+border-radius: 50%; /* Circular shape */
+cursor: pointer;
+}
+
+

@@ -1,0 +1,340 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Light gray background */
+    display: flex;
+    flex-direction: column; /* Stack header and form vertically */
+    align-items: center; /* Center everything horizontally */
+    min-height: 100vh; /* Ensure the page takes up at least the full height of the screen */
+}
+
+/* Branding (header) */
+.branding {
+    width: 100%;
+    background-color: #000; /* Black background for branding */
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.sitename {
+    font-size: 2rem; /* Adjusted header size */
+    color: #fff;
+    margin: 0;
+}
+
+.navmenu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navmenu ul li {
+    margin-left: 20px;
+}
+
+.navmenu a {
+    color: #000; /* Black color by default */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect to yellow */
+.navmenu a:hover {
+    background-color: #f1c40f; /* Yellow background on hover */
+}
+
+/* Form container */
+.php-email-form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px; /* Add space between header and form */
+}
+
+/* Heading styles inside the form */
+.php-email-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Space between fields */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Slightly rounded edges */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none;
+}
+
+/* Labels for the input fields */
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Submit button styling */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%; /* Make button stretch across the form */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .php-email-form {
+        padding: 20px;
+        max-width: 90%;
+    }
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Header (Branding Section) */
+.branding {
+    background: #000000; /* Black background */
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure spacing */
+    width: 100%;
+}
+
+/* Container inside the header */
+.branding .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Makes text & nav stay on the same line */
+    width: 90%;
+    margin: auto;
+}
+
+/* Logo Section */
+.branding .logo h1 {
+    color: #fff; /* White text */
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navmenu {
+    display: flex;
+}
+
+.navmenu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navmenu ul li {
+    display: inline-block;
+}
+
+.navmenu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navmenu ul li a:hover {
+    background: #ffcc00; /* Highlight effect */
+    color: #222;
+}
+/* Footer Styling */
+.footer {
+    background: #000000; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
+
+/* Centering text */
+.footer .container {
+    width: 90%;
+    margin: 0 auto; /* Ensure content is centered */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100%; /* Make the container take full height of the footer */
+}
+
+/* Sticky Footer for Pages with Less Content */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+/* HOMEPAGE STYLE */
+#team {
+    background-color: #f8f9fa; /* Light background */
+    padding: 60px 0;
+  }
+  
+  #team .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #team .section-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #team .section-title .description-title {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  /* Container for Team Members */
+  .container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between items */
+    padding: 0 15px; /* Add padding on left and right */
+  }
+  
+  /* Team Member Card */
+  .team-member {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 23%; /* Each card takes up 1/4 of the container width */
+    margin-bottom: 20px; /* Space between rows */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+  }
+  
+  /* Member Image */
+  .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .member-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 5px solid #ffcc00; /* Highlight the bottom with color */
+  }
+  
+  /* Member Info */
+  .member-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .member-info h4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+  .register-link {
+    color: #007bff; /* Adjust color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0056b3; /* Adjust hover color */
+  }
+
+  .form-footer{
+    text-align: center;
+  }
+
+  /* Ensure full height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Wrapper for page content */
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Push footer to bottom */
+  .page-content {
+    flex: 1;
+  }
+
+  

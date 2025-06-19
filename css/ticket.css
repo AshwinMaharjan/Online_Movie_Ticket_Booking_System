@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.ticket {
+    background: white;
+    padding: 30px;
+    max-width: 700px;
+    margin: 40px auto; /* Added vertical space above and below */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+h2, h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.ticket-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ticket-image {
+    flex: 1 1 40%;
+    max-width: 25%;
+}
+
+.ticket-info {
+    flex: 1 1 55%;
+    max-width: 55%;
+    text-align: justify;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+   
+}
+
+.details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.details p {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+/* Ensure header/footer stretch full width */
+header {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    margin-bottom: 20px; /* Add space below header */
+}
+
+footer {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 20px; /* Add space above footer */
+}
+
+/* Optional: style navigation inside header if exists */
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+/* Hide elements during print */
+@media print {
+    /* Hide header, footer, and print button during printing */
+    .branding, footer, .footer, .print-button {
+        display: none !important;
+    }
+}
+
+.print-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.print-button button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.print-button button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+/* General container for profile */
+.container {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+/* Profile card */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.profile-header h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profile info */
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.info-item strong {
+    font-weight: bold;
+    color: #333;
+}
+

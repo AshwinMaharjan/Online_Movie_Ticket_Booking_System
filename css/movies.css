@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Form Styling */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap; /* Prevents text from breaking into a new line */
+}
+
+.btn + .btn {
+    margin-left: 10px;
+}
+
+.btn-secondary {
+    background-color: green;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(1, 69, 1);
+}
+
+.btn-third {
+    background-color: rgb(235, 160, 0);
+    color: white;
+}
+
+.btn-third:hover {
+    background-color:rgb(198, 135, 0);
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: rgb(190, 0, 0);
+}
+
+/* Container Layout */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Layout Fix */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items */
+    gap: 20px; /* Adds space between form and table */
+    margin-top: 20px;
+}
+
+/* Ensure equal width for form & table */
+.col-lg-6 {
+    flex: 1;
+    max-width: 48%; /* Adjust for better layout */
+}
+
+/* Table Styling */
+.table-container {
+    overflow-x: auto; /* Prevents overflow on small screens */
+    width: 100%;
+}
+
+.table {
+    width:100%; /* Ensures proper fit */
+    margin: auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Image Styling */
+.table img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.table td:last-child {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Aligns buttons in the middle */
+    gap: 10px; /* Adds spacing between buttons */
+    flex-wrap: nowrap; /* Prevents buttons from wrapping to the next line */
+}
+
+.error {
+    margin-top: 4px;
+    color: red;
+    font-size: 0.85em;
+}

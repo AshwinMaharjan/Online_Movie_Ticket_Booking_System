@@ -1,0 +1,117 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Branding */
+.branding {
+  width: 100%;
+  background-color: #000;
+  padding: 15px 0;
+}
+
+.branding .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.sitename {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Navigation */
+.navmenu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navmenu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navmenu ul li a:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+/* Register Form Styling */
+.php-email-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.php-email-form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.php-email-form .col-md-6 {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-control {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
