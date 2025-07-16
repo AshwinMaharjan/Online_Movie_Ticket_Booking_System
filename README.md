@@ -1,7 +1,5 @@
 # Online Movie Ticket Booking System
 
-![Movie Ticket Booking](https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses_1284-46176.jpg)
-
 A web-based application for booking movie tickets online, built with PHP and MySQL.
 
 ## Features
@@ -78,18 +76,6 @@ A web-based application for booking movie tickets online, built with PHP and MyS
       - View booking reports and user statistics
       - Update system settings
 
-7. **Project Structure**:
-   Online_Movie_Ticket_Booking_System/
-├── assets/            # CSS, JS, and image files
-├── database/          # SQL files
-├── includes/          # PHP includes and configuration
-├── admin/             # Admin panel files
-├── user/             # User dashboard files
-├── screenshots/       # Application screenshots
-├── index.php          # Homepage
-├── login.php          # Login page
-├── register.php       # Registration page
-
-8. **Contact**:
+7. **Contact**:
    - Email: maharjan.ashwin098@gmail.com
    - GitHub: @AshwinMaharjan
