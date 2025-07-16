@@ -42,6 +42,7 @@ A web-based application for booking movie tickets online, built with PHP and MyS
 
 3. **Configuration**:
    - Update database credentials in includes/config.php
+      ```bash
      define('DB_SERVER', 'localhost');
      define('DB_USERNAME', 'your_username');
      define('DB_PASSWORD', 'your_password');
@@ -75,8 +76,19 @@ A web-based application for booking movie tickets online, built with PHP and MyS
       - Manage movies, theaters, and showtimes
       - View booking reports and user statistics
       - Update system settings
+7. **Project Structure**:
+    ```bash
+      cinema_hall_system/
+      ├── admin/            
+      ├── assets/           
+      ├── css/            
+      ├── images/            
+      ├── lib/            
+      ├── qr/            
+      ├── temp_qr/            
+      ├── uploads/            
 
-7. **Contact**:
+8. **Contact**:
 - Email: maharjan.ashwin098@gmail.com
 - Instagram: https://www.instagram.com/__ashwin07__/
 - Facebook: https://www.facebook.com/mhrzn.ashwin/
