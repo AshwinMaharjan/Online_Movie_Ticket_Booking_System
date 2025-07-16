@@ -77,5 +77,5 @@ A web-based application for booking movie tickets online, built with PHP and MyS
       - Update system settings
 
 7. **Contact**:
-   - Email: maharjan.ashwin098@gmail.com
-   - GitHub: @AshwinMaharjan
+- Email: maharjan.ashwin098@gmail.com
+- GitHub: @AshwinMaharjan
