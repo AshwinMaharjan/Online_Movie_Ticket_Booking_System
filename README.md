@@ -44,15 +44,41 @@ A web-based application for booking movie tickets online, built with PHP and MyS
    - Update database credentials in includes/config.php
       ```bash
      define('DB_SERVER', 'localhost');
-     define('DB_USERNAME', 'your_username');
-     define('DB_PASSWORD', 'your_password');
-     define('DB_NAME', 'movie_ticket_booking');
+     define('DB_USERNAME', 'root');
+     define('DB_PASSWORD', '');
+     define('DB_NAME', 'dbmovies');
      
 4. **Run**:
    - Start your Apache and MySQL servers
    - Access the application at http://localhost/cinema_hall_system
      
-5. **Screenshots**:
+
+5. **Usage**:
+  - For Users:
+      - Register or login to your account
+      - Browse available movies
+      - Select theater, showtime, and seats
+      - Complete the payment process
+      - View/Manage your bookings in the dashboard
+  - For Admin:
+      - Login with admin credentials
+      - Manage movies, theaters, and showtimes
+      - View booking reports and user statistics
+      - Update system settings
+        
+6. **Project Structure**:
+    ```bash
+      cinema_hall_system/
+      ├── admin/            
+      ├── assets/           
+      ├── css/            
+      ├── images/            
+      ├── lib/            
+      ├── qr/            
+      ├── temp_qr/            
+      ├── uploads/            
+
+7. **Screenshots**:
    - Homepage:
      <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f4af85da-ade5-40d5-9114-ce264aee8bde" />
    - Movies:
@@ -85,31 +111,7 @@ A web-based application for booking movie tickets online, built with PHP and MyS
      <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/706c3eb1-d1f6-4767-9873-9eff254717d0" />
    - Users Profile:
      <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5d6e18af-f656-45af-a540-932b146883c5" />
-
-6. **Usage**:
-  - For Users:
-      - Register or login to your account
-      - Browse available movies
-      - Select theater, showtime, and seats
-      - Complete the payment process
-      - View/Manage your bookings in the dashboard
-  - For Admin:
-      - Login with admin credentials
-      - Manage movies, theaters, and showtimes
-      - View booking reports and user statistics
-      - Update system settings
-7. **Project Structure**:
-    ```bash
-      cinema_hall_system/
-      ├── admin/            
-      ├── assets/           
-      ├── css/            
-      ├── images/            
-      ├── lib/            
-      ├── qr/            
-      ├── temp_qr/            
-      ├── uploads/            
-
+     
 8. **Contact**:
 - Email: maharjan.ashwin098@gmail.com
 - Instagram: https://www.instagram.com/__ashwin07__/
