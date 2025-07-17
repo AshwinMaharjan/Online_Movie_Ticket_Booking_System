@@ -37,8 +37,8 @@ A web-based application for booking movie tickets online, built with PHP and MyS
    
    # Import the database
    - Open phpMyAdmin
-   - Create a new database named 'movie_ticket_booking'
-   - Import the SQL file from the database/ directory
+   - Create a new database named 'dbmovies'
+   - Import the SQL file from the dbmovies.sql
 
 3. **Configuration**:
    - Update database credentials in includes/config.php
